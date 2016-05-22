@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/recog_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始识别"/>
+    <TextView
+        android:id="@+id/state_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="状态：" />
+
+    <TextView
+        android:id="@+id/result_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="识别结果：" />
+    <TextView
+        android:id="@+id/error_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="错误信息：" />
+</LinearLayout>
+
+
